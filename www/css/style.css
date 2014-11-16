@@ -1,0 +1,11 @@
+.ui-groc-card-list-item {
+	margin-top:	10px; 
+}
+
+.ui-groc-checkout {
+	position: absolute;		
+	top: 30%;	
+	right: 10px;
+	font-size: 30px;
+	color: #ef4e3a;
+}

@@ -1,0 +1,65 @@
+<ion-view title="Grocstreet">
+  <ion-nav-buttons side="left">
+    <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+  </ion-nav-buttons>
+  <ion-nav-buttons side="right">
+    <button ng-click="focusSearchBar()" class="button button-icon icon ion-grid"></button>
+  </ion-nav-buttons>
+  <ion-content class="has-header adf">
+    <div class="list list-inset">
+      <label class="item item-input">
+        <i class="icon ion-search placeholder-icon"></i>
+        <input type="text" placeholder="I'm looking for... Eg. Sugar / Gold Winner">
+      </label>
+    </div>
+    <div class="list card">
+      <div class="ui-groc-card-list-item">
+        <a class="item item-icon-left assertive" href="#">
+          <i class="icon ion-android-arrow-forward"></i>
+          Most Wanted
+        </a>
+        <div class="item item-avatar">
+          <img src="/img/ionic.png">
+          <h2>Rice</h2>
+          <div class="ui-groc-card-subcontent"><p>Basmati | 900/-</p></div>
+          <i class="ui-groc-checkout icon ion-plus-circled"></i>
+        </div>
+        <div class="item item-avatar">
+          <img src="/img/ionic.png">
+          <h2>Wheat</h2>
+          <div class="ui-groc-card-subcontent"><p>Anil | 350/-</p></div>
+          <i class="ui-groc-checkout icon ion-plus-circled"></i>
+        </div>
+        <div class="item item-avatar">
+          <img src="/img/ionic.png">
+          <h2>Maida</h2>
+          <div class="ui-groc-card-subcontent"><p>Pillsburry | 100/-</p></div>
+          <i class="ui-groc-checkout icon ion-plus-circled"></i>
+        </div>
+      </div>
+
+      <div class="ui-groc-card-list-item">
+        <a class="item item-icon-left assertive" href="#">
+          <i class="icon ion-android-arrow-forward"></i>
+          Categories
+        </a>
+        <div class="item item-avatar">
+          <img src="/img/ionic.png">
+          <h2>Gorceries</h2>
+        </div>
+        <div class="item item-avatar">
+          <img src="/img/ionic.png">
+          <h2>Pantry</h2>
+        </div>
+        <div class="item item-avatar">
+          <img src="/img/ionic.png">
+          <h2>Personal Care</h2>
+        </div>
+        <div class="item item-avatar">
+          <img src="/img/ionic.png">
+          <h2>Home Care</h2>
+        </div>
+      </div>
+
+  </ion-content>
+</ion-view>
